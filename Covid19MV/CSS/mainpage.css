@@ -7,21 +7,28 @@
   html { 
     scroll-behavior: smooth; 
   }
-  
-  .container {
-    position: relative;
-    width: 1440px;
-    height: 1024px;
-    margin: 0 auto;
-  }
-  
-  .title{
-    position: absolute;
-    width: 1440px;
-    height: 70px;
-    left: 0px;
-    top: 0px;
 
-    background-image: url("/Pics/Upper.png");
+  .navbar{
+    background-image: url("../Pics/BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75px;
   }
-  
+
+  .navbar-nav{
+    position: absolute;
+    right: 0px;
+    width: 500px;
+    padding: 10px;
+  }
+
+  .Title a{
+    font-family: 'Cambria Math';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;
+  }
+
