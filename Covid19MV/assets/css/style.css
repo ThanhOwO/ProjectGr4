@@ -918,9 +918,15 @@ form .buttons button , .backBtn{
     box-shadow: 0 3px 6px rgba(0,0,0,0.13);
 }
 
+.History_details{
+  margin-bottom: 0px;
+}
 
-
-
+/* form .fields .Resinput-field .Nationality{
+    display: contents;
+    width: calc(100% / 3 - 15px);
+    flex-direction: column;
+}*/
 
 
 
